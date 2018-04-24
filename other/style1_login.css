@@ -1,0 +1,202 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+/****-----start-body----****/
+body{
+	background:#fff;
+	font-family: 'Open Sans', sans-serif;
+
+}
+body a,form li,input[type="submit"],input[type="text"],.sixth-login input[type="submit"],.third-login input[type="submit"]{
+	transition: 0.1s all;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-o-transition: 0.1s all;
+}
+.login-form{
+	background: url(../images/bright.png) repeat;
+	padding:2em 0;
+}
+.sixth-login{
+	width: 30%;
+	margin:0 auto;
+}
+
+.icon{
+	height:30px;
+	width:30px;
+	display: block;
+	float:left;
+	margin:21px 1px 0px 12px;
+}
+.user{
+	background: url(../images/icons.png) no-repeat 2px 1px;
+	
+}
+.lock{
+	background: url(../images/icons.png) no-repeat 4px -53px;
+}
+/**sixth-login**/
+form.six {
+	padding:18% 2.9em;
+}
+.login-06 {
+	background: #262626;
+	text-align: center;
+}
+.light-b{
+	padding: 1em 0em;
+	background:#1fbba6;
+	border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+}
+.dark-o{
+	padding: 1em 0em;
+	background:#e96638;
+	margin:1em 0;
+	border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+}
+.light-b p,.dark-o p {
+color: #fff;
+font-size: 16px;
+padding-bottom: 10px;
+}
+.icons6{
+	height:30px;
+	width:30px;
+	display: block;
+	float: left;
+	margin:5px 0px 0px 1px;
+}
+.user6{
+	background: url(../images/icon6.png) no-repeat 10px 9px;
+	
+}
+.lock6{
+	background: url(../images/icon6.png) no-repeat 10px -85px;
+}
+form.six li{
+	list-style: none;
+	background: #fff;
+	width:90%;
+	margin: 0 auto;
+}
+.sixth-login input[type="text"],.dark-o input[type="password"]{
+border: 1px solid #fff;
+padding: 0.5em 0.5em 0.5em 0.5em;
+color: #999;
+font-size: 20px;
+outline: none;
+background: none;
+-webkit-appearance: none;
+font-weight:300;
+width: 76%;
+text-align: left;
+background: none;
+border-left: 1px solid #ddd;
+	}
+.sixth-login input[type="submit"]{
+	font-size:18px;
+	font-weight:400;
+	color: #808080;
+	display: inline-block;
+	padding: 0.8em 0em;
+	width: 100%;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border: none;
+	outline: none;
+	background: #fff;
+	border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+
+}
+.sixth-login input[type="submit"]:hover{
+background: #1fbba6;
+color: #fff;
+}
+
+
+/*-----start-responsive-design------*/
+@media (max-width:1366px){
+.sixth-login{
+	width: 32%;
+	margin:0 auto;
+	}
+}
+@media (max-width:1280px){
+
+	.sixth-login{
+	width: 35%;
+	margin:0 auto;
+	}
+
+}
+@media (max-width:1024px){
+	.sixth-login{
+	width: 42%;
+	margin: 0 auto;
+	}
+	}
+}
+@media (max-width:768px){
+	.sixth-login{
+	width: 54%;
+	margin: 0 auto;
+	}
+	
+	
+}
+@media (max-width:640px){
+	.sixth-login{
+	width: 67%;
+	margin: 0 auto;
+	}
+}
+@media (max-width:480px){
+.sixth-login{
+	width: 86%;
+	margin: 0 auto;
+	}
+}
+@media (max-width:320px){
+.sixth-login{
+	width:85%;
+	margin: 0 auto;
+	}
+	form.six {
+	padding: 14% 0.9em;
+	}
+	.sixth-login input[type="text"], .dark-o input[type="password"] {
+	font-size:15px;
+	width: 67%;
+	}
+
+}

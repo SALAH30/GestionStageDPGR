@@ -1,0 +1,277 @@
+@import url('normalize.css');
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/icomoon/codropsicons/codropsicons.eot');
+	src:url('../fonts/icomoon/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/icomoon/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/icomoon/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+/* General Demo Style */
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background: #ddd url(../images/light_noise_diagonal.png) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+    min-height: 100%
+}
+a{
+	color: #555;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	position: relative;
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.container > header{
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > header h1{
+	font-size: 36px;
+	line-height: 36px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color: #666;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+.container > header h2{
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	padding: 15px 0 5px 0;
+	color: #555;
+	font-family: Cambria, Georgia, serif;
+	font-style: italic;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+}
+/* Header Style */
+.codrops-top{
+	line-height: 24px;
+	font-size: 11px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+.codrops-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	display: inline-block;
+}
+.codrops-top a:hover{
+	background: rgba(255,255,255,0.6);
+}
+.codrops-top span.right{
+	float: right;
+}
+.codrops-top span.right a{
+	float: left;
+	display: block;
+}
+/* Demo Buttons Style */
+.codrops-demos{
+    text-align:center;
+	display: block;
+	line-height: 30px;
+	padding: 5px 0px;
+}
+.codrops-demos a{
+	display: inline-block;
+	position: relative;
+	line-height: 22px;
+	padding: 0 8px;
+	margin: 0 3px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 2px;
+	color: #555;
+	border: 1px solid #ddd;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.8);
+	background: #f0f0f0;
+	background: -moz-linear-gradient(top,#ffffff,#f0f0f0);
+	background: -webkit-linear-gradient(top,#ffffff,#f0f0f0);
+	background: -o-linear-gradient(top,#ffffff,#f0f0f0);
+	background: -ms-linear-gradient(top,#ffffff,#f0f0f0);
+	background: linear-gradient(top,#ffffff,#f0f0f0);
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 1px rgba(0,0,0,0.2);    
+}
+
+.codrops-demos a:hover {
+    background: #f0f0f0;
+}
+
+.codrops-demos a:active {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover{
+	background: #777;
+	border-color: rgba(0,0,0,0.01);
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    box-shadow:  
+    	1px 1px 0 rgba(255,255,255,0.3), 
+    	inset 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}
+/* Dummy elements */
+.dummy {
+	text-align: left;
+	padding: 1em;
+	min-height: 300px;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+.dummy-text {
+	max-width: 1000px;
+	font-size: 1.65em;
+}
+
+.info {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 600px;
+	font-size: 13px;
+	padding: 2em 0;
+}
+
+.dummy-text p {
+	margin-top: 0;
+	line-height: 1.8;
+	text-align: justify;
+}
+
+.dummy-text h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1em;
+	margin: 2em 0 1em;
+}
+
+.dummy-menu {
+	max-width: 100%;
+	padding: 4em 1em;
+}
+
+.dummy-menu ul,
+.dummy-team ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0 0 3em;
+}
+
+.dummy-menu ul li {
+	display: inline-block;
+	position: relative;
+	margin: 0 1em;
+	font-size: 1.5em;
+}
+
+.dummy-menu ul li a {
+	display: inline-block;
+	font-weight: 700;
+	padding: 0.15em 0.25em 0;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.dummy-menu-icons ul li {
+	width: 2em;
+	height: 2em;
+	font-size: 2em;
+	line-height: 1.75;
+}
+
+.dummy-image {
+	position: relative;
+}
+
+.dummy blockquote {
+	font-family: 'Kalam', cursive;
+	font-size: 2.5em;
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.dummy blockquote footer {
+	font-size: 0.5em;
+}
+
+.dummy blockquote footer::before {
+	content: '—';
+}
+
+.dummy-avatar {
+	margin-top: 7em;
+	text-align: center;
+}
+
+.dummy-avatar > div {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+.dummy-avatar a {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.dummy-avatar a img {
+	border-radius: 50%;
+}
+
+.dummy-avatar a h4 {
+	margin: 0.25em 0;
+	line-height: 1;
+	font-size: 1.75em;
+	font-weight: 400;
+}

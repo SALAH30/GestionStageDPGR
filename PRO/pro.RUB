@@ -1,0 +1,21 @@
+PRO
+	AUTHENTIFICATION
+		Création compte
+		Reste le mot de passe
+	LES DROITS D'ACCES
+		Directeur 
+		Assistant$0
+		Conseil scientifique
+	RECHERCHE
+		Simple
+		Avancée
+	MISE A JOUR
+		Ajouter un chercheur
+		Ajouter un laboratoire
+		Ajouter un stage
+		Ajouter une université
+	NOTIFICATION
+		Retour de satage
+	BASE DE DONNEE
+		Visualise
+		Sauvgarde
