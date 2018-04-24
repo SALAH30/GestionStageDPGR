@@ -1,4 +1,4 @@
-Login Register
+Gestion des Stages DPGR
 =============
 
-These files acompany the tutorial: [Login and Registration system with PHP](http://daveismyname.com/login-and-registration-system-with-php-bp)
+ Application web de gestion des stages de courtes durées pour la DPGR(Direct de Post-Graduation et Recherche) 
